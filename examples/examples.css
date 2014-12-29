@@ -234,6 +234,7 @@ p{
  * --------------------------------------- */
 #section1 h1{
 	color: #444;
+	font-weight: 800;
 }
 #section1 p{
 	color: #333;
@@ -304,4 +305,20 @@ p{
 * --------------------------------------- */
 #pp-nav.custom .pp-tooltip{
 	color: #AAA;
+}
+
+
+@font-face {
+    font-family: NotoSans;
+    src: url(NotoSans.woff);
+}
+
+#avatar {
+width: 256px;
+height: 256px;
+border: 10px solid #aee2d9;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-o-border-radius: 50%;
+border-radius: 50%;
 }

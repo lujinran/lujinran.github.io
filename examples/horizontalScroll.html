@@ -2,8 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>pagePiling.js plugin - Horizontal scroll</title>
+	<title>卢瑾然的简历</title>
+	<link rel="shortcut icon" href="imgs/me.ico">
 	<meta name="author" content="Alvaro Trigo Lopez" />
 	<meta name="description" content="pagePiling.js plugin by Alvaro Trigo." />
 	<meta name="keywords"  content="pile,piling,piling.js,stack,pages,scrolling,stacking,touch,fullpile,scroll,plugin,jquery" />
@@ -23,11 +25,11 @@
 	    	$('#pagepiling').pagepiling({
 	          	direction: 'horizontal',
 	    		menu: '#menu',
-	    		anchors: ['page1', 'page2', 'page3', 'page4'],
+	    		anchors: ['page1', 'page2', 'page3', 'page4','page5'],
 			    sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
 			    navigation: {
 			    	'position': 'right',
-			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4']
+			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4', 'page 5']
 			   	},
 			    afterRender: function(){
 			    	$('#pp-nav').addClass('custom');
@@ -83,27 +85,31 @@
 </head>
 <body>
 	<ul id="menu">
-		<li data-menuanchor="page1" class="active"><a href="#page1">Page 1</a></li>
-		<li data-menuanchor="page2"><a href="#page2">Page 2</a></li>
-		<li data-menuanchor="page3"><a href="#page3">Page 3</a></li>
+		<li data-menuanchor="page1" class="active"><a href="#page1">主页/home</a></li>
+		<li data-menuanchor="page2"><a href="#page2">工作经验</a></li>
+		<li data-menuanchor="page3"><a href="#page3">擅长技术</a></li>
+		<li data-menuanchor="page4"><a href="#page4">获奖详情</a></li>
+		<li data-menuanchor="page5"><a href="#page5">简历下载</a></li>
 	</ul>
-
 
 	<div id="pagepiling">
 	    <div class="section" id="section1">
-	    	<img src="imgs/pagePiling-plugin.gif" alt="pagePiling" />
+	    	<img id="avatar" src="imgs/dana.png" alt="pagePiling" />
 			<br />
 
-	    	<h1>Horizontal Scroll</h1>
-			<p>pagePiling does it easy for you!</p>
+	    	<h1>卢瑾然</h1>
+			<p>数据分析</p>
 
 	    </div>
+
+
 	    <div class="section">
 	    	<div class="intro">
 	    		<h1>Simple to use</h1>
 	    		<p>Just use the option direction: 'horizontal' to have it working!</p>
 	    	</div>
 	    </div>
+
 	    <div class="section" id="section3">
 	    	<div class="intro">
 	    		<h1>Isn't it great?</h1>
@@ -112,6 +118,24 @@
 	    		<div id="colors3"></div>
 	    	</div>
 	    </div>
+
+        <div class="section">
+	    	<img src="imgs/pagePiling-plugin.gif" alt="pagePiling" />
+			<br />
+
+	    	<h1>Horizontal Scroll</h1>
+			<p>pagePiling does it easy for you!</p>
+	    </div>
+
+	    <div class="section">
+	    	<img src="imgs/pagePiling-plugin.gif" alt="pagePiling" />
+			<br />
+
+	    	<h1>Horizontal Scroll</h1>
+			<p>pagePiling does it easy for you!</p>
+
+	    </div>
+
 	</div>
 
 </body>
