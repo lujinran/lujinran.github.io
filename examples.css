@@ -51,7 +51,7 @@ body{
 	color: #f2f2f2;
 }
 h1{
-	font-size: 6em;
+	font-size: 4em;
 }
 p{
 	font-size: 2em;
@@ -238,7 +238,7 @@ p{
 }
 #section1 p{
 	color: #333;
-	color: rgba(0,0,0,0.3);
+	color: rgba(0, 0, 0, 1);
 }
 #section1 img{
 	margin: 20px 0;
@@ -322,3 +322,7 @@ border: 10px solid #aee2d9;
 -o-border-radius: 50%;
 border-radius: 50%;
 }
+
+a:hover{color:#FF8305}
+a.highlight{color:#FF8305}
+a.highlight:hover{color:#008a75}

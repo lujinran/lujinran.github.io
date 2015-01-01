@@ -25,11 +25,11 @@
 	    	$('#pagepiling').pagepiling({
 	          	direction: 'horizontal',
 	    		menu: '#menu',
-	    		anchors: ['page1', 'page2', 'page3', 'page4','page5'],
+	    		anchors: ['home', 'experience', 'technology', 'reward','cv'],
 			    sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
 			    navigation: {
-			    	'position': 'right',
-			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4', 'page 5']
+			    	'position': 'left',
+			   		'tooltips': ['home', 'experience', 'technology', 'reward', 'cv']
 			   	},
 			    afterRender: function(){
 			    	$('#pp-nav').addClass('custom');
@@ -85,20 +85,22 @@
 </head>
 <body>
 	<ul id="menu">
-		<li data-menuanchor="page1" class="active"><a href="#page1">主页/home</a></li>
-		<li data-menuanchor="page2"><a href="#page2">工作经验</a></li>
-		<li data-menuanchor="page3"><a href="#page3">擅长技术</a></li>
-		<li data-menuanchor="page4"><a href="#page4">获奖详情</a></li>
-		<li data-menuanchor="page5"><a href="#page5">简历下载</a></li>
+		<li data-menuanchor="home" class="active"><a href="#home">主页/home</a></li>
+		<li data-menuanchor="experience"><a href="#experience">工作经验</a></li>
+		<li data-menuanchor="technology"><a href="#technology">擅长技术</a></li>
+		<li data-menuanchor="reward"><a href="#reward">获奖详情</a></li>
+		<li data-menuanchor="cv"><a href="#cv">简历下载</a></li>
 	</ul>
 
 	<div id="pagepiling">
 	    <div class="section" id="section1">
 	    	<img id="avatar" src="imgs/dana.png" alt="pagePiling" />
+			<h1>卢瑾然</h1>
+			
 			<br />
 
-	    	<h1>卢瑾然</h1>
 			<p>数据分析</p>
+			<p><a href="mailto:lujinran2013@gmail.com" class="highlight">lujinran2013@gmail.com</a></p>
 
 	    </div>
 
@@ -134,6 +136,13 @@
 	    	<h1>Horizontal Scroll</h1>
 			<p>pagePiling does it easy for you!</p>
 
+	    </div>
+	     <div class="section">
+	    	<img src="imgs/pagePiling-plugin.gif" alt="pagePiling" />
+			<br />
+
+	    	<h1>Horizontal Scroll</h1>
+			<p>pagePiling does it easy for you!</p>
 	    </div>
 
 	</div>
