@@ -110,6 +110,18 @@ p{
 	width: 50%;
 	margin: 0 auto;
 	font-size: 1.5em;
+	padding:8px;
+	text-align: left
+}
+.intro li{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 0.9em;
+	padding:4px;
+	text-align: left
+
+}
+
 }
 .twitter-share-button{
 	position: fixed;
@@ -272,7 +284,7 @@ p{
 	bottom: 0;
 }
 #section3 p{
-	color: #757575;
+	color: #CDCDCD;
 }
 
 #colors2,
@@ -326,3 +338,26 @@ border-radius: 50%;
 a:hover{color:#FF8305}
 a.highlight{color:#FF8305}
 a.highlight:hover{color:#008a75}
+
+
+
+.tag {
+background-color: rgba(249, 232, 238, 1);
+color: #EE005A;
+border-radius: 3px;
+display: inline-block;
+padding: 2px 8px;
+padding-top: 2px;
+padding-right: 8px;
+padding-bottom: 2px;
+padding-left: 8px;
+margin-right: 3px;
+margin-bottom: 3px;
+font-size: 1.3em
+}
+
+
+
+.tag-panel{margin:15px auto}
+.tag.expert{background-color:#900036;color:#eef3f0}
+.tag.familiar{background-color:#900036;color:#aee2d9}

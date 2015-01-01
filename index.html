@@ -25,14 +25,14 @@
 	    	$('#pagepiling').pagepiling({
 	          	direction: 'horizontal',
 	    		menu: '#menu',
-	    		anchors: ['home', 'experience', 'technology', 'reward','cv'],
+	    		anchors: ['home', 'technology', 'education','reward','cv'],
 			    sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
 			    navigation: {
 			    	'position': 'left',
-			   		'tooltips': ['home', 'experience', 'technology', 'reward', 'cv']
+			   		'tooltips': ['home', 'technology','education', 'reward','cv']
 			   	},
 			    afterRender: function(){
-			    	$('#pp-nav').addClass('custom');
+			    	$ ('#pp-nav').addClass('custom');
 			    },
 			    afterLoad: function(anchorLink, index){
 			    	if(index>1){
@@ -86,9 +86,10 @@
 <body>
 	<ul id="menu">
 		<li data-menuanchor="home" class="active"><a href="#home">主页/home</a></li>
-		<li data-menuanchor="experience"><a href="#experience">工作经验</a></li>
 		<li data-menuanchor="technology"><a href="#technology">擅长技术</a></li>
+		<li data-menuanchor="education"><a href="#education">教育背景</a></li>
 		<li data-menuanchor="reward"><a href="#reward">获奖详情</a></li>
+		
 		<li data-menuanchor="cv"><a href="#cv">简历下载</a></li>
 	</ul>
 
@@ -107,17 +108,37 @@
 
 	    <div class="section">
 	    	<div class="intro">
-	    		<h1>Simple to use</h1>
-	    		<p>Just use the option direction: 'horizontal' to have it working!</p>
+	    		<h1></h1>
+	    		<h1>擅长技术</h1>
+	    		<div class="tag-panel">
+                    <div class="tag expert">Python</div>
+                    <div class="tag">R</div>
+                    <div class="tag">MySQL</div>
+                </div>
+                <div class="tag-panel">
+                    <div class="tag">JavaScript</div>
+                    <div class="tag expert">HTML5</div>
+                    <div class="tag expert">CSS</div>
+                </div>
+          
+                <div class="tag-panel">
+                	<div class="tag">Haskell</div>
+                    <div class="tag expert">C++</div>
+                    <div class="tag expert">Java</div>
+                </div>
 	    	</div>
 	    </div>
 
 	    <div class="section" id="section3">
 	    	<div class="intro">
-	    		<h1>Isn't it great?</h1>
-	    		<p>Just as you expected!</p>
-	    		<div id="colors2"></div>
-	    		<div id="colors3"></div>
+	    		<h1>教育背景</h1>
+	    		<p>University of College Cork (UCC)
+	    		<li >2014年9月～2015年10月 数据分析 硕士学位</li>
+	    		<li >2013年9月～2014年6月  计算机科学 (BTBU与UCC 3+1交换生)</li></p>
+
+	    		<p>北京工商大学 (BTBU)
+	    		<li >2010年9月～2014年6月 信息管理 学士学位</li></p>
+	    		
 	    	</div>
 	    </div>
 
